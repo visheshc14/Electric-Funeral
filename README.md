@@ -16,6 +16,8 @@ A Flexible SDN-Based Architecture for Identifying and Mitigating Low-Rate DDoS A
 
 ![IMG_4211 Edited (1)](https://user-images.githubusercontent.com/36515357/131669989-38a23255-b0c5-44c2-9fe5-dfa22c4e5eb8.png)
 
+![IMG_4214 Edited (1)](https://user-images.githubusercontent.com/36515357/131672958-fc16003d-3aa1-405a-8990-f3b064e17902.png)
+
 ## Requirements
 - python3
 - pip
