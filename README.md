@@ -7,7 +7,11 @@ Mitigation of DDoS Attacks.
 A dynamic MLP-based DDoS attack detection method using feature selection and feedback - https://www.sciencedirect.com/science/article/pii/S0167404819301890
 
 A Flexible SDN-Based Architecture for Identifying and Mitigating Low-Rate DDoS Attacks Using Machine Learning - https://ieeexplore.ieee.org/abstract/document/9177002
-![3-Figure2-1](https://user-images.githubusercontent.com/36515357/131661648-92a0e232-4d7e-4327-9db4-d495f3a7bbb8.png)
+
+![Electric-Funeral Rust - Vishesh Choudhary (1)](https://user-images.githubusercontent.com/36515357/131664283-1ebf89bf-3fc0-4b4d-9d14-e1a909edd1f3.png)
+
+![6-Figure3-1](https://user-images.githubusercontent.com/36515357/131663504-8e5094ee-ce63-4989-ae91-612b01ac2c28.png)
+
 
 
 ## Requirements
