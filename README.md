@@ -10,10 +10,6 @@ A Flexible SDN-Based Architecture for Identifying and Mitigating Low-Rate DDoS A
 
 ![Electric-Funeral Rust - Vishesh Choudhary (1)](https://user-images.githubusercontent.com/36515357/131664283-1ebf89bf-3fc0-4b4d-9d14-e1a909edd1f3.png)
 
-![6-Figure3-1](https://user-images.githubusercontent.com/36515357/131663504-8e5094ee-ce63-4989-ae91-612b01ac2c28.png)
-
-![9-Figure4-1](https://user-images.githubusercontent.com/36515357/131667619-cbf406df-e9e0-482a-9011-29cec1b5ba82.png)
-
 ## Requirements
 - python3
 - pip
