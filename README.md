@@ -3,6 +3,12 @@
 A Combination Of Software Defined Network (SDN) And A Multi-Layer Perceptron (MLP) Neural Network That Results In The
 Mitigation of DDoS Attacks.
 
+## References 
+A dynamic MLP-based DDoS attack detection method using feature selection and feedback - https://www.sciencedirect.com/science/article/pii/S0167404819301890
+A Flexible SDN-Based Architecture for Identifying and Mitigating Low-Rate DDoS Attacks Using Machine Learning - https://ieeexplore.ieee.org/abstract/document/9177002
+![3-Figure2-1](https://user-images.githubusercontent.com/36515357/131661648-92a0e232-4d7e-4327-9db4-d495f3a7bbb8.png)
+
+
 ## Requirements
 - python3
 - pip
