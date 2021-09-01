@@ -1,6 +1,6 @@
 ## Electric-Funeral
 
-A Combination Of Software Defined Network (SDN) And A Multi-Layer Perceptron (MLP) Neural Network That Results In The
+A Combination of Software Defined Network (SDN) And A Multi-Layer Perceptron (MLP) Neural Network That Results In The
 Mitigation of DDoS Attacks.
 
 ## References 
