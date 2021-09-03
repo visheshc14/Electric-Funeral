@@ -2,8 +2,7 @@
 name = "Attacks-Rust"
 version = "0.1.0"
 authors = ["Vishesh Choudhary <vishachoudhary@gmai.com>"]
-edition = "2021"
-license = "GPL-3.0"
+edition = "2018"
 description = "Rust Implementations Of DoS Attacks."
 repository = "https://github.com/visheshc14/Electric-Funeral"
 readme = "README.md"
