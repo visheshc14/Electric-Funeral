@@ -2,12 +2,14 @@
 name = "Attacks-Rust"
 version = "0.1.0"
 authors = ["Vishesh Choudhary <vishachoudhary@gmai.com>"]
-edition = "2018"
+edition = "2021"
 description = "Rust Implementations Of DoS Attacks."
 repository = "https://github.com/visheshc14/Electric-Funeral"
 readme = "README.md"
 
 [dependencies]
-rand = "0.7.3"
-pnet = "0.26.0"
-ctrlc = "3.1.4"
+rand = "0.8"
+pnet = "0.34.0"
+ctrlc = "3.4.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

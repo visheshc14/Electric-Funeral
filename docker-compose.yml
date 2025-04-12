@@ -1,0 +1,25 @@
+version: '3'
+services:
+  controller:
+    build: .
+    privileged: true
+    network_mode: "host"
+    volumes:
+      - /lib/modules:/lib/modules
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: python3 network_controller.py --detect
+    environment:
+      - PYTHONPATH=/app:/usr/local/lib/python3/dist-packages
+
+  network:
+    build: .
+    privileged: true
+    network_mode: "host"
+    volumes:
+      - /lib/modules:/lib/modules
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - controller
+    command: python3 create_network.py --attack --cli
+    environment:
+      - PYTHONPATH=/app:/usr/local/lib/python3/dist-packages

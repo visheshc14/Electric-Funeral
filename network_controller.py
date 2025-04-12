@@ -14,12 +14,12 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 
-import pox3.lib.packet as pac
-from pox3.boot import boot
-from pox3.core import core
-from pox3.lib.recoco import Timer
+import pox.lib.packet as pac
+from pox.boot import boot
+from pox.core import core
+from pox.lib.recoco import Timer
 
-import pox3.openflow.libopenflow_01 as of
+import pox.openflow.libopenflow_01 as of
 
 
 if __name__ != "__main__":

@@ -120,4 +120,4 @@ def run_network(num_bots):
 
 if __name__ == '__main__':
     setLogLevel('info')
-    run_network(50)
+    run_network(50) 

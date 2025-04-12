@@ -1,0 +1,9 @@
+images:
+- location: "https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64.img"
+  arch: "x86_64"
+  digest: "sha256:b4aae927745362f5e322ba34a5933df7e86aaa0e2b3c5e9d6e4e7f897f0de75b"
+memory: "4GiB"
+disk: "100GiB"
+mounts:
+- location: "~"
+  writable: true
