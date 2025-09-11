@@ -1,7 +1,7 @@
 [package]
 name = "Attacks-Rust"
 version = "0.1.0"
-authors = ["Vishesh Choudhary <vishachoudhary@gmai.com>"]
+authors = ["Vishesh Choudhary <vishachoudhary@gmail.com>"]
 edition = "2021"
 description = "Rust Implementations Of DoS Attacks."
 repository = "https://github.com/visheshc14/Electric-Funeral"
