@@ -12,6 +12,8 @@ Mitigation of DDoS Attacks.
 
 [A Flexible SDN-Based Architecture for Identifying and Mitigating Low-Rate DDoS Attacks Using Machine Learning](https://ieeexplore.ieee.org/abstract/document/9177002)
 
+## Architecture
+
 ![Electric-Funeral Rust - Vishesh Choudhary (1)](https://user-images.githubusercontent.com/36515357/131664283-1ebf89bf-3fc0-4b4d-9d14-e1a909edd1f3.png)
 
 ![IMG_4211 Edited (1)](https://user-images.githubusercontent.com/36515357/131669989-38a23255-b0c5-44c2-9fe5-dfa22c4e5eb8.png)
@@ -73,6 +75,8 @@ The user should be able to ping the attack target with the following command:
 ```
 u0 ping t0
 ```
+## Deployment
+
 <img width="531" alt="Screenshot 2025-04-09 at 3 23 29 PM" src="https://github.com/user-attachments/assets/6bc5bb80-7294-4618-aa19-273c4c67980d" />
 <img width="266" alt="Screenshot 2025-04-09 at 3 07 56 PM" src="https://github.com/user-attachments/assets/081c75f9-d28f-438a-a5e5-a97bc1c6ccd7" />
 <img width="266" alt="Screenshot 2025-04-09 at 3 07 36 PM" src="https://github.com/user-attachments/assets/51a9f13d-f0c6-4ed1-ad28-52ac7ecdba69" />
